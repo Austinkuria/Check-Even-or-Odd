@@ -1,73 +1,78 @@
-*,*::after,*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size:62.5%;
+html {
+  font-size: 62.5%;
 }
 
-:root{
-    --color-primary: rgb(106, 11, 11);
-    --color-white: #eee;
-    --color-black-main: #222;
+:root {
+  --color-primary: rgb(106, 11, 11);
+  --color-white: #eee;
+  --color-black-main: #222;
 }
 
-
-body{
-    font-family: 'Courier New', Courier, monospace;
-    overflow: hidden;
-    background-color: var(--color-white);
-    color: var(--color-black-main);
-    font-size: 1.4rem;
+body {
+  font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
+  background-color: var(--color-white);
+  color: var(--color-black-main);
+  font-size: 1.4rem;
 }
 
-.check-odd-or-even-header{
-    align-items: center;
-    justify-content:center;
-    display: flex;
-    padding: 2rem;
-    border-bottom: 1px solid var(--color-white);
+.check-odd-or-even-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 2rem;
+  border-bottom: 1px solid var(--color-black-main);
 }
 
-.number-input{
-    text-align: center;
-    border-radius: 10px;
-    font-weight:bold;
-    font-size: 4rem;
-    padding:3rem;
-    outline: none;
-    border: 2px solid var(--color-primary);
-    margin: 3rem 0;
-    width: 300px;
+.number-input {
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 3rem;
+  outline: none;
+  border: 2px solid var(--color-primary);
+  margin: 3rem 0;
+  width: 300px;
 }
 
-.check-btn{
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 1rem;
-    cursor: pointer;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    border: none;
-    font-weight: bold;
-    outline: none;
-    margin-top: 1rem;
+.check-btn {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-weight: bold;
+  outline: none;
+  margin-top: 1rem;
 }
 
-.check-odd-or-even-text, .check-output-text{
-    letter-spacing: 1px;
-    font-size: 2.5rem;
-    color: var(--color-primary);
-    text-transform: uppercase;
+.check-odd-or-even-text,
+.check-output-text {
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
 }
 
-.check-odd-or-even-body{
- align-items: center;
- justify-content: center;
- border: 3px solid red;
- height: 90vh;
-} 
+.check-odd-or-even-body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid red; */
+  height: 85vh;
+}
